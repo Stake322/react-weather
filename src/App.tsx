@@ -3,6 +3,7 @@ import { Route, Switch } from 'react-router';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import MonthStatistics from './pages/MonthStatistics/MonthStatistics';
+import Header from './shared/Header/Header';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <Router>
       <div className="global-container">
         <div className="container">
+          <Header />
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/month-statistics" exact component={MonthStatistics} />

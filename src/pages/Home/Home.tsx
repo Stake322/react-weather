@@ -6,12 +6,10 @@ interface Props {
 }
 
 const Home = (props: Props) => {
-  console.log('123');
     return (
         <div className={s.home}>
+          
           Home321
-          312
-          321
         </div>
     );
 }
