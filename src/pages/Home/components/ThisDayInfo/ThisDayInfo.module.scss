@@ -6,8 +6,7 @@
     padding: 40px;
     max-width: 750px;
     width: 100%;
-    background-color: $lite-backgounrd;
-    background: $lite-backgounrd;
+    background: var(#{--components-background-default});
     box-shadow: $box-shadow;
     border-radius: $border-radius;
 }
@@ -37,13 +36,16 @@
     }
     .indicator__name, .indicator__value{
         font-size: 14px;
+
     }
     .indicator__name{
         color: $base-color;
+
+        width: 100px;
     }
     .indicator__value{
-        color: $lite-color;
-
+        color: var(#{--text-color-default});
+        
     }
 }
 

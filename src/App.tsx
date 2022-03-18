@@ -13,7 +13,7 @@ function App() {
       <div className="global-container">
         <div className="container">
           <Header />
-          <Popup/>
+          {/* <Popup/> */}
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/month-statistics" exact component={MonthStatistics} />

@@ -3,11 +3,13 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    position: relative;
+    background: var(#{--body-background-default}) ;
+
 }
 
 *, *::after, *::before {
     box-sizing: border-box;
-    position: relative;
 }
 
 .container{
